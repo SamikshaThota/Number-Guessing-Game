@@ -21,6 +21,7 @@ class GuessNum{
 public class GuessGame{
     public static void main(String[] args) {
         GuessNum g=new GuessNum();
+        System.out.println("enter a number: ");
         g.guessnumber();
     }
 }
